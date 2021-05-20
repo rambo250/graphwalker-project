@@ -1,0 +1,34 @@
+{
+  "models": [
+    {
+      "name": "TestModel",
+      "id": "1b69c3f3-727b-48b4-bb6c-cf90e45f7be2",
+      "startElementId": "v1",
+      "generator": "geneticAlgorithmGenerator(edge_coverage(10))",
+      "vertices": [
+        {
+          "id": "v1",
+          "name": "v_Vertex_1"
+        },
+        {
+          "id": "v2",
+          "name": "v_Vertex_2"
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "name": "e_Edge_1",
+          "sourceVertexId": "v1",
+          "targetVertexId": "v2"
+        },
+        {
+          "id": "e2",
+          "name": "e_Edge_2",
+          "sourceVertexId": "v2",
+          "targetVertexId": "v1"
+        }
+      ]
+    }
+  ]
+}
